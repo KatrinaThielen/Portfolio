@@ -1,0 +1,74 @@
+/* nav bar display */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+/* nav bar display */
+li a {
+    display: block;
+    color: #437D55;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+/* aligning menu items */
+li.guide {
+    float: right
+  }
+
+/* aligning home name item */
+li.main {
+  float: left;
+}
+
+/* link color hover change */
+li a:hover {
+    transition: .4s;
+    color: #193321;
+  }
+
+/* container for nav bar */
+div {
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+    text-transform: normal;
+}
+
+/* blinking underscore */
+.main span::after {
+    content: "";
+    width: 13px;
+    height: 2px;
+    background: #3E8553;
+    display: inline-block;
+    animation: cursor-blink .6s steps(2) infinite;
+    animation-direction: alternate;
+  }
+
+/* blinking underscore animation keyframes */
+@keyframes cursor-blink {
+    100% {
+        opacity: 100;
+    }
+    75% {
+        opacity: 75;
+    }
+    50% {
+        opacity: 50;
+    }
+    25% {
+        opacity: 25;
+    }
+    0% {
+      opacity: 0;
+    }
+}
