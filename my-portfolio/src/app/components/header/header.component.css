@@ -19,12 +19,14 @@ li a {
 
 /* aligning menu items */
 li.guide {
-    float: right
+    float: right;
+    margin-right: 2%;
   }
 
 /* aligning home name item */
 li.main {
   float: left;
+  margin-left: 2%;
 }
 
 /* link color hover change */
