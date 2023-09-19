@@ -1,0 +1,45 @@
+div {
+    padding: 10%;
+    padding-top: 18px;
+    font-family: FreeMono, monospace;
+    text-align: left;
+    width: 80%;
+}
+
+/* technology display inline */
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+/* technologies display list item */
+li a {
+    display: block;
+    color: #437D55;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+/* aligning technology items */
+li.logo {
+    align-content: center;
+    display: inline-block;
+  }
+
+/* default icon appearence */
+li img {
+    opacity: 50%;
+    padding: 60px;
+}
+
+/* icon opacity hover change */
+li img:hover {
+    transition: .4s;
+    opacity: 100%;
+    color: #193321;
+  }

@@ -1,0 +1,78 @@
+div.footer {  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    padding: 2%;
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bolder;
+}
+
+/* nav bar display inline */
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+/* nav bar display list item */
+li a {
+    display: block;
+    color: #437D55;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+/* aligning menu items */
+li.guide {
+    align-content: center;
+    display: inline-block;
+  }
+
+/* default icon appearence */
+li img {
+    opacity: 50%;
+}
+
+/* icon opacity hover change */
+li img:hover {
+    transition: .4s;
+    opacity: 100%;
+    color: #193321;
+  }
+
+
+/* blinking underscore */
+.blink h3::after {
+    content: "";
+    width: 13px;
+    height: 2px;
+    background: #3E8553;
+    display: inline-block;
+    animation: cursor-blink .6s steps(2) infinite;
+    animation-direction: alternate;
+  }
+
+/* blinking underscore animation keyframes */
+@keyframes cursor-blink {
+    100% {
+        opacity: 100;
+    }
+    75% {
+        opacity: 75;
+    }
+    50% {
+        opacity: 50;
+    }
+    25% {
+        opacity: 25;
+    }
+    0% {
+      opacity: 0;
+    }
+}

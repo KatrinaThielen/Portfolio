@@ -1,0 +1,8 @@
+div {
+    padding: 10%;
+    padding-top: -20px;
+    font-family: FreeMono, monospace;
+    text-align: left;
+    width: 80%;
+    background-color: blue;
+}
