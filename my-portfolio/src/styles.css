@@ -2,3 +2,7 @@
 body {
     background: #CDD1CE;
 }
+
+div.leaf1 {
+    background-position: 50%;
+}
