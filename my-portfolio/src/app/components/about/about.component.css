@@ -1,0 +1,22 @@
+div {
+    margin-top: 18%;
+    padding: 10%;
+    font-family: FreeMono, monospace;
+    text-align: left;
+    width: 80%;
+    margin-bottom: -15%;
+}
+
+h3 + p { 
+    margin-top: -30px; 
+}
+
+h3 {
+   
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+p { 
+    max-width: 65vw;
+}
